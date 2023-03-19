@@ -1,0 +1,249 @@
+/*
+ Theme Name:     Petro Child
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Divi Child Theme
+ Author:         Elegant Themes
+ Author URI:     https://www.elegantthemes.com
+ Template:       Divi
+ Version:        1.0.0
+*/
+ 
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+.nav li ul {
+    width: 340px !important;
+}
+#top-menu li li a {
+	width: 300px;}
+h4.pro-date {
+    color: #603321;
+    margin-top: 20px;
+    font-weight: bold;
+    border-left: 5px solid #603321;
+    padding: 10px;
+}
+h4.pro-date span {
+    color: #000;
+    font-weight: 400;
+    font-size: 20px;
+}
+.et_pb_menu .et_mobile_menu .menu-item-has-children > a,
+#main-header .et_mobile_menu .menu-item-has-children > a {
+    background-color: transparent;
+    position: relative;
+}
+.et_pb_menu .et_mobile_menu .menu-item-has-children > a:after, #main-header .et_mobile_menu .menu-item-has-children > a:after {
+    font-family: 'ETmodules';
+    text-align: center;
+    speak: none;
+    font-weight: 600;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    font-size: 18px;
+    content: '\4c';
+    top: 11px;
+    right: 13px;
+}
+.et_pb_menu .et_mobile_menu .menu-item-has-children.visible > a:after,
+#main-header .et_mobile_menu .menu-item-has-children.visible > a:after {
+    content: '\4d';
+}
+.et_pb_menu .et_mobile_menu ul.sub-menu,
+#main-header .et_mobile_menu ul.sub-menu,
+.et-db #et-boc .et-l .et_pb_menu .et_mobile_menu li ul.sub-menu {
+    display: none !important;
+    visibility: hidden !important;
+    transition: all 1.5s ease-in-out;
+}
+.et_pb_menu .et_mobile_menu li.visible > ul.sub-menu,
+#main-header .et_mobile_menu li.visible > ul.sub-menu,
+.et-db #et-boc .et-l #main-header .et_mobile_menu li.visible > ul.sub-menu,
+.et-db #et-boc .et-l .et_pb_fullwidth_menu .et_mobile_menu li.visible > ul.sub-menu,
+.et-db #et-boc .et-l .et_pb_menu .et_mobile_menu li.visible > ul.sub-menu {
+    display: block !important;
+    visibility: visible !important;
+}
+/*---Right---*/
+.ds-slider-right.et_pb_slider .et_pb_container {
+    float: right !important; /*move the slider text container to the right*/
+}
+.ds-slider-right .et_pb_slide_description  {
+  text-align: right !important; /*align the slider text to the right*/
+  padding: 35% 8% !important; /*adjust the padding around the slider text container, this will also help you to control the 
+  height of your slides. You can remove this if you want the default height*/
+}
+.ds-slider-right.et_pb_slider .et_pb_button {
+    float: right !important; /*move the button to the right*/
+}
+.slider-customization .et_pb_slide_description {
+       width: 50%;
+    float: right;
+    padding-top: 5%;
+    padding-right: 0%;
+    padding-bottom: 0;
+    position: absolute;
+        bottom: 28px;
+    right: 0;
+    text-align: right !important;
+}
+.slider-customization h2.et_pb_slide_title, .slider-customization .et_pb_slide_content {
+    padding: 10px 20px;
+    background: rgb(96 51 33 / 90%);
+}
+.news_cst h2.entry-title {
+    line-height: 1.5em;
+    color: #603321;
+}
+.news_cst .et_pb_post {
+    border: none;
+    box-shadow: 0px 0px 8px #3e3e3e3d;
+    background: whitesmoke;
+}
+.gallery_custm .et_pb_gallery_image.landscape {
+    padding: 10px;
+    box-shadow: 0px 0px 7px #4c4c4c52;
+}
+/* form css custom */
+.career-frm .careers_form {
+    width: 46%;
+    float: left;
+    margin: 1% 2%;
+    padding: 15px;
+}
+.career-frm {
+    background: #dedede57;
+    padding: 2%;
+    box-shadow: 0px 0px 10px #9c9c9cad;
+}
+.career-frm p {
+    padding: 1% 2% 0%;
+    font-weight: bold;
+    margin-bottom: 0 !important;
+}
+.career-frm .cover_letter {
+      width: 100%;
+    margin: 5px auto 30px;
+    padding: 20px;
+    top: 0px;
+    position: relative;
+
+}
+.careers_submit {
+    background: #603321;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+}
+.careers_submit:hover {
+    background: #000;
+    transition: all linear 0.2s;
+    cursor: pointer;
+}
+.pro-row {
+    width: 100%;
+    display: flex;
+    position: relative;
+    clear: both;
+    margin: 5% 0;
+}
+.pro-img img{width:100%;}
+
+.pro-img {
+    width: 40%;
+    display: inline-block;
+    float: left;
+    box-shadow: 0px 0px 10px #737272;
+    min-height: 267px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.project-content {
+    width: 60%;
+    display: block;
+    float: left;
+    padding: 3% 0;
+}
+.project-content h2 {
+    font-size: 20px;
+}
+.left-cnt {
+    padding-right: 5%;
+}
+.right-cnt {
+    padding-left: 5%;
+}
+@media screen and (max-width: 768px) {
+	.pro-date, .pro-date span{font-size:12px !important;}
+    .career-frm .careers_form {
+    width: 100%;
+    margin: 2% 0%;
+   
+}
+.career-frm .cover_letter {
+    width: 100%;}
+    .slider-customization .et_pb_slide_description {
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
+        
+    }
+    .et_header_style_left #logo, .et_header_style_split #logo {
+    max-width: 82%;
+    filter: initial;
+}
+    .et_pb_text_inner h2 {
+    font-size: 24px !important;
+    line-height: 1.5em !important;
+}
+  .pro-img, .project-content {
+    width: 100% ;
+    margin-bottom: 15px;
+}
+.pro-row {
+    display: inline-table;
+    margin-bottom: 5%;
+}
+.project-content h2 {font-size: 20px !important;}
+}
+.divider-cst{
+    border-bottom: 3px solid #603321;
+    display: block; 
+    width: 50%; 
+    margin: -10px auto 9px auto; 
+    padding: 0px;
+}
+div#footer-info {
+    text-align: center;
+    float: none;
+}
+.et-social-icons {
+    float: none;
+    text-align: center;
+}
+@media (max-width: 671px) {
+	.reverse-columns {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+}
+.countters .wpsm_counterbox {
+    background: #603321!important;
+    padding: 20px;
+    border-radius: 48px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.countters .wpsm_number {
+    font-family: inherit !important;
+    font-weight: bold !important;
+}
+.countters h3.wpsm_count-title {
+    font-family: inherit !important;
+}
